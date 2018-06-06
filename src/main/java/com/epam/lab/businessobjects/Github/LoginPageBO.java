@@ -28,7 +28,7 @@ public class LoginPageBO {
 
     public void clickSignIn() {
         loginPage.getURL();
-        loginPage.getBtnSignIn().waitUntilVisible().click();
+        loginPage.getBtnSignIn().click();
     }
 
     public void isSignedIn() {

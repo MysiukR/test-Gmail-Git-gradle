@@ -1,180 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.epam.lab.TestGit" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-06-06T19:06:28" hostname="DESKTOP-KOGK8HA" time="23.623">
+<testsuite name="com.epam.lab.TestGit" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-06-06T19:20:59" hostname="DESKTOP-KOGK8HA" time="21.828">
   <properties/>
-  <testcase name="GitHubTest" classname="com.epam.lab.TestGit" time="22.418"/>
-  <testcase name="GitHubTest" classname="com.epam.lab.TestGit" time="22.905"/>
-  <testcase name="GitHubTest" classname="com.epam.lab.TestGit" time="23.623"/>
-  <system-out><![CDATA[2018-06-06 22:06:28 [TestNG-test=testGIT-1] INFO  com.epam.lab.TestGit  - User [email= seleniumlab6test@gmail.com , password=lab6test]
- 2018-06-06 22:06:28 [TestNG-test=testGIT-3] INFO  com.epam.lab.TestGit  - User [email= seleniumlab6test3@gmail.com , password=lab6test]
- 2018-06-06 22:06:28 [TestNG-test=testGIT-2] INFO  com.epam.lab.TestGit  - User [email= seleniumlab6test2@gmail.com , password=lab6test]
- 2018-06-06 22:06:30 [TestNG-test=testGIT-1] INFO  com.epam.lab.TestGit  - Initialize properties and go to website
- 2018-06-06 22:06:30 [TestNG-test=testGIT-1] INFO  com.epam.lab.TestGit  - Running tests
- 2018-06-06 22:06:30 [TestNG-test=testGIT-1] INFO  com.epam.lab.TestGit  - Test sign in to GitHub
- 2018-06-06 22:06:31 [TestNG-test=testGIT-2] INFO  com.epam.lab.TestGit  - Initialize properties and go to website
- 2018-06-06 22:06:31 [TestNG-test=testGIT-2] INFO  com.epam.lab.TestGit  - Running tests
- 2018-06-06 22:06:31 [TestNG-test=testGIT-2] INFO  com.epam.lab.TestGit  - Test sign in to GitHub
- 2018-06-06 22:06:31 [TestNG-test=testGIT-3] INFO  com.epam.lab.TestGit  - Initialize properties and go to website
- 2018-06-06 22:06:31 [TestNG-test=testGIT-3] INFO  com.epam.lab.TestGit  - Running tests
- 2018-06-06 22:06:31 [TestNG-test=testGIT-3] INFO  com.epam.lab.TestGit  - Test sign in to GitHub
- 2018-06-06 22:06:36 [TestNG-test=testGIT-1] INFO  com.epam.lab.decorator.PageElement  - Checking if element is displayed [Button 'Sign in']
- 2018-06-06 22:06:36 [TestNG-test=testGIT-1] INFO  com.epam.lab.decorator.PageElement  - Click on [Button 'Sign in']
- 2018-06-06 22:06:37 [TestNG-test=testGIT-1] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Input login in GitHub] value [[seleniumlab6test@gmail.com]]
- 2018-06-06 22:06:37 [TestNG-test=testGIT-1] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Input password in GitHub] value [[lab6test]]
- 2018-06-06 22:06:37 [TestNG-test=testGIT-1] INFO  com.epam.lab.decorator.PageElement  - Checking if element is displayed [Button 'Commit']
- 2018-06-06 22:06:37 [TestNG-test=testGIT-1] INFO  com.epam.lab.decorator.PageElement  - Click on [Button 'Commit']
- 2018-06-06 22:06:37 [TestNG-test=testGIT-2] INFO  com.epam.lab.decorator.PageElement  - Checking if element is displayed [Button 'Sign in']
- 2018-06-06 22:06:37 [TestNG-test=testGIT-2] INFO  com.epam.lab.decorator.PageElement  - Click on [Button 'Sign in']
- 2018-06-06 22:06:38 [TestNG-test=testGIT-2] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Input login in GitHub] value [[seleniumlab6test2@gmail.com]]
- 2018-06-06 22:06:38 [TestNG-test=testGIT-2] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Input password in GitHub] value [[lab6test]]
- 2018-06-06 22:06:38 [TestNG-test=testGIT-3] INFO  com.epam.lab.decorator.PageElement  - Checking if element is displayed [Button 'Sign in']
- 2018-06-06 22:06:39 [TestNG-test=testGIT-2] INFO  com.epam.lab.decorator.PageElement  - Checking if element is displayed [Button 'Commit']
- 2018-06-06 22:06:39 [TestNG-test=testGIT-3] INFO  com.epam.lab.decorator.PageElement  - Click on [Button 'Sign in']
- 2018-06-06 22:06:39 [TestNG-test=testGIT-1] INFO  com.epam.lab.decorator.PageElement  - Clear [Search text in search bar]
- 2018-06-06 22:06:39 [TestNG-test=testGIT-2] INFO  com.epam.lab.decorator.PageElement  - Click on [Button 'Commit']
- 2018-06-06 22:06:39 [TestNG-test=testGIT-1] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Search text in search bar] value [[selenium java]]
- 2018-06-06 22:06:39 [TestNG-test=testGIT-1] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Search text in search bar] value [[?]]
- 2018-06-06 22:06:39 [TestNG-test=testGIT-3] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Input login in GitHub] value [[seleniumlab6test3@gmail.com]]
- 2018-06-06 22:06:40 [TestNG-test=testGIT-3] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Input password in GitHub] value [[lab6test]]
- 2018-06-06 22:06:40 [TestNG-test=testGIT-3] INFO  com.epam.lab.decorator.PageElement  - Checking if element is displayed [Button 'Commit']
- 2018-06-06 22:06:40 [TestNG-test=testGIT-3] INFO  com.epam.lab.decorator.PageElement  - Click on [Button 'Commit']
- 2018-06-06 22:06:40 [TestNG-test=testGIT-2] INFO  com.epam.lab.decorator.PageElement  - Clear [Search text in search bar]
- 2018-06-06 22:06:40 [TestNG-test=testGIT-2] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Search text in search bar] value [[selenium java]]
- 2018-06-06 22:06:41 [TestNG-test=testGIT-2] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Search text in search bar] value [[?]]
- 2018-06-06 22:06:41 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - Total count are 3,680 repository results
- 2018-06-06 22:06:41 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - There are 10 repositories on the page.
+  <testcase name="GitHubTest" classname="com.epam.lab.TestGit" time="18.967"/>
+  <testcase name="GitHubTest" classname="com.epam.lab.TestGit" time="20.388"/>
+  <testcase name="GitHubTest" classname="com.epam.lab.TestGit" time="21.828"/>
+  <system-out><![CDATA[2018-06-06 22:20:59 [TestNG-test=testGIT-1] INFO  com.epam.lab.TestGit  - User [email= seleniumlab6test2@gmail.com , password=lab6test]
+ 2018-06-06 22:20:59 [TestNG-test=testGIT-2] INFO  com.epam.lab.TestGit  - User [email= seleniumlab6test3@gmail.com , password=lab6test]
+ 2018-06-06 22:20:59 [TestNG-test=testGIT-3] INFO  com.epam.lab.TestGit  - User [email= seleniumlab6test@gmail.com , password=lab6test]
+ 2018-06-06 22:21:02 [TestNG-test=testGIT-2] INFO  com.epam.lab.TestGit  - Initialize properties and go to website
+ 2018-06-06 22:21:02 [TestNG-test=testGIT-2] INFO  com.epam.lab.TestGit  - Running tests
+ 2018-06-06 22:21:02 [TestNG-test=testGIT-2] INFO  com.epam.lab.TestGit  - Test sign in to GitHub
+ 2018-06-06 22:21:02 [TestNG-test=testGIT-1] INFO  com.epam.lab.TestGit  - Initialize properties and go to website
+ 2018-06-06 22:21:02 [TestNG-test=testGIT-1] INFO  com.epam.lab.TestGit  - Running tests
+ 2018-06-06 22:21:02 [TestNG-test=testGIT-1] INFO  com.epam.lab.TestGit  - Test sign in to GitHub
+ 2018-06-06 22:21:02 [TestNG-test=testGIT-3] INFO  com.epam.lab.TestGit  - Initialize properties and go to website
+ 2018-06-06 22:21:02 [TestNG-test=testGIT-3] INFO  com.epam.lab.TestGit  - Running tests
+ 2018-06-06 22:21:02 [TestNG-test=testGIT-3] INFO  com.epam.lab.TestGit  - Test sign in to GitHub
+ 2018-06-06 22:21:07 [TestNG-test=testGIT-1] INFO  com.epam.lab.decorator.PageElement  - Click on [Button 'Sign in']
+ 2018-06-06 22:21:08 [TestNG-test=testGIT-1] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Input login in GitHub] value [[seleniumlab6test2@gmail.com]]
+ 2018-06-06 22:21:08 [TestNG-test=testGIT-1] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Input password in GitHub] value [[lab6test]]
+ 2018-06-06 22:21:08 [TestNG-test=testGIT-1] INFO  com.epam.lab.decorator.PageElement  - Checking if element is displayed [Button 'Commit']
+ 2018-06-06 22:21:08 [TestNG-test=testGIT-1] INFO  com.epam.lab.decorator.PageElement  - Click on [Button 'Commit']
+ 2018-06-06 22:21:08 [TestNG-test=testGIT-2] INFO  com.epam.lab.decorator.PageElement  - Click on [Button 'Sign in']
+ 2018-06-06 22:21:09 [TestNG-test=testGIT-2] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Input login in GitHub] value [[seleniumlab6test3@gmail.com]]
+ 2018-06-06 22:21:09 [TestNG-test=testGIT-2] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Input password in GitHub] value [[lab6test]]
+ 2018-06-06 22:21:09 [TestNG-test=testGIT-2] INFO  com.epam.lab.decorator.PageElement  - Checking if element is displayed [Button 'Commit']
+ 2018-06-06 22:21:10 [TestNG-test=testGIT-2] INFO  com.epam.lab.decorator.PageElement  - Click on [Button 'Commit']
+ 2018-06-06 22:21:10 [TestNG-test=testGIT-1] INFO  com.epam.lab.decorator.PageElement  - Clear [Search text in search bar]
+ 2018-06-06 22:21:10 [TestNG-test=testGIT-1] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Search text in search bar] value [[selenium java]]
+ 2018-06-06 22:21:10 [TestNG-test=testGIT-1] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Search text in search bar] value [[?]]
+ 2018-06-06 22:21:10 [TestNG-test=testGIT-3] INFO  com.epam.lab.decorator.PageElement  - Click on [Button 'Sign in']
+ 2018-06-06 22:21:11 [TestNG-test=testGIT-2] INFO  com.epam.lab.decorator.PageElement  - Clear [Search text in search bar]
+ 2018-06-06 22:21:11 [TestNG-test=testGIT-2] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Search text in search bar] value [[selenium java]]
+ 2018-06-06 22:21:11 [TestNG-test=testGIT-2] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Search text in search bar] value [[?]]
+ 2018-06-06 22:21:11 [TestNG-test=testGIT-3] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Input login in GitHub] value [[seleniumlab6test@gmail.com]]
+ 2018-06-06 22:21:12 [TestNG-test=testGIT-3] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Input password in GitHub] value [[lab6test]]
+ 2018-06-06 22:21:12 [TestNG-test=testGIT-3] INFO  com.epam.lab.decorator.PageElement  - Checking if element is displayed [Button 'Commit']
+ 2018-06-06 22:21:12 [TestNG-test=testGIT-3] INFO  com.epam.lab.decorator.PageElement  - Click on [Button 'Commit']
+ 2018-06-06 22:21:12 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - Total count are 3,680 repository results
+ 2018-06-06 22:21:12 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - There are 10 repositories on the page.
 
- 2018-06-06 22:06:41 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - Name of repositories: 
- 2018-06-06 22:06:41 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	SeleniumHQ/selenium
- 2018-06-06 22:06:41 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	sebarmeli/Selenium2-Java-QuickStart-Archetype
- 2018-06-06 22:06:41 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	machzqcq/CucumberJVMExamples
- 2018-06-06 22:06:41 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	vmi/selenese-runner-java
- 2018-06-06 22:06:41 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	Ardesco/Selenium-Maven-Template
- 2018-06-06 22:06:41 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	MarkusBernhardt/robotframework-selenium2library-java
- 2018-06-06 22:06:41 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	sayems/java.webdriver
- 2018-06-06 22:06:41 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	selenium-cucumber/selenium-cucumber-java
- 2018-06-06 22:06:41 [TestNG-test=testGIT-3] INFO  com.epam.lab.decorator.PageElement  - Clear [Search text in search bar]
- 2018-06-06 22:06:41 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	saucelabs-sample-test-frameworks/Java-TestNG-Selenium
- 2018-06-06 22:06:41 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	executeautomation/SeleniumWithCucucumber
- 2018-06-06 22:06:41 [TestNG-test=testGIT-3] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Search text in search bar] value [[selenium java]]
- 2018-06-06 22:06:42 [TestNG-test=testGIT-3] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Search text in search bar] value [[?]]
- 2018-06-06 22:06:43 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - Total count are 3,680 repository results
- 2018-06-06 22:06:43 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - There are 10 repositories on the page.
+ 2018-06-06 22:21:12 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - Name of repositories: 
+ 2018-06-06 22:21:12 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	SeleniumHQ/selenium
+ 2018-06-06 22:21:12 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	sebarmeli/Selenium2-Java-QuickStart-Archetype
+ 2018-06-06 22:21:12 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	machzqcq/CucumberJVMExamples
+ 2018-06-06 22:21:12 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	vmi/selenese-runner-java
+ 2018-06-06 22:21:12 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	Ardesco/Selenium-Maven-Template
+ 2018-06-06 22:21:12 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	MarkusBernhardt/robotframework-selenium2library-java
+ 2018-06-06 22:21:12 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	sayems/java.webdriver
+ 2018-06-06 22:21:12 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	selenium-cucumber/selenium-cucumber-java
+ 2018-06-06 22:21:12 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	saucelabs-sample-test-frameworks/Java-TestNG-Selenium
+ 2018-06-06 22:21:12 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	executeautomation/SeleniumWithCucucumber
+ 2018-06-06 22:21:13 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - Total count are 3,680 repository results
+ 2018-06-06 22:21:13 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - There are 10 repositories on the page.
 
- 2018-06-06 22:06:43 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - Name of repositories: 
- 2018-06-06 22:06:43 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	SeleniumHQ/selenium
- 2018-06-06 22:06:43 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	sebarmeli/Selenium2-Java-QuickStart-Archetype
- 2018-06-06 22:06:43 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	machzqcq/CucumberJVMExamples
- 2018-06-06 22:06:43 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	vmi/selenese-runner-java
- 2018-06-06 22:06:43 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	Ardesco/Selenium-Maven-Template
- 2018-06-06 22:06:43 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	MarkusBernhardt/robotframework-selenium2library-java
- 2018-06-06 22:06:43 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	sayems/java.webdriver
- 2018-06-06 22:06:43 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	selenium-cucumber/selenium-cucumber-java
- 2018-06-06 22:06:44 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	saucelabs-sample-test-frameworks/Java-TestNG-Selenium
- 2018-06-06 22:06:44 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	executeautomation/SeleniumWithCucucumber
- 2018-06-06 22:06:44 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - Total count are 3,680 repository results
- 2018-06-06 22:06:44 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - There are 10 repositories on the page.
+ 2018-06-06 22:21:13 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - Name of repositories: 
+ 2018-06-06 22:21:13 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	SeleniumHQ/selenium
+ 2018-06-06 22:21:13 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	sebarmeli/Selenium2-Java-QuickStart-Archetype
+ 2018-06-06 22:21:13 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	machzqcq/CucumberJVMExamples
+ 2018-06-06 22:21:13 [TestNG-test=testGIT-3] INFO  com.epam.lab.decorator.PageElement  - Clear [Search text in search bar]
+ 2018-06-06 22:21:13 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	vmi/selenese-runner-java
+ 2018-06-06 22:21:13 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	Ardesco/Selenium-Maven-Template
+ 2018-06-06 22:21:13 [TestNG-test=testGIT-3] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Search text in search bar] value [[selenium java]]
+ 2018-06-06 22:21:13 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	MarkusBernhardt/robotframework-selenium2library-java
+ 2018-06-06 22:21:13 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	sayems/java.webdriver
+ 2018-06-06 22:21:13 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	selenium-cucumber/selenium-cucumber-java
+ 2018-06-06 22:21:13 [TestNG-test=testGIT-3] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Search text in search bar] value [[?]]
+ 2018-06-06 22:21:13 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	saucelabs-sample-test-frameworks/Java-TestNG-Selenium
+ 2018-06-06 22:21:13 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	executeautomation/SeleniumWithCucucumber
+ 2018-06-06 22:21:14 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - Tag [selenium] contain: selenium
+ 2018-06-06 22:21:14 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - Tag [selenium] contain: selenium
+ 2018-06-06 22:21:14 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - Tag [selenium] contain: selenium
+ 2018-06-06 22:21:14 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - Tag [selenium] contain: selenium
+ 2018-06-06 22:21:14 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - Tag [selenium] contain: selenium
+ 2018-06-06 22:21:14 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - Not all tags contain 'selenium'. 5 from 10
+ 2018-06-06 22:21:14 [TestNG-test=testGIT-1] INFO  com.epam.lab.decorator.PageElement  - Click on [Select button]
+ 2018-06-06 22:21:14 [TestNG-test=testGIT-1] INFO  com.epam.lab.decorator.PageElement  - Click on [Change item to 'Fewest starts']
+ 2018-06-06 22:21:15 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - Tag [selenium] contain: selenium
+ 2018-06-06 22:21:15 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - Tag [selenium] contain: selenium
+ 2018-06-06 22:21:15 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - Tag [selenium] contain: selenium
+ 2018-06-06 22:21:15 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - Tag [selenium] contain: selenium
+ 2018-06-06 22:21:15 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - Tag [selenium] contain: selenium
+ 2018-06-06 22:21:15 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - Total count are 3,680 repository results
+ 2018-06-06 22:21:15 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - There are 10 repositories on the page.
 
- 2018-06-06 22:06:44 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - Name of repositories: 
- 2018-06-06 22:06:44 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - 	SeleniumHQ/selenium
- 2018-06-06 22:06:44 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - 	sebarmeli/Selenium2-Java-QuickStart-Archetype
- 2018-06-06 22:06:44 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - 	machzqcq/CucumberJVMExamples
- 2018-06-06 22:06:45 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - 	vmi/selenese-runner-java
- 2018-06-06 22:06:45 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - 	Ardesco/Selenium-Maven-Template
- 2018-06-06 22:06:45 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - Tag [selenium] contain: selenium
- 2018-06-06 22:06:45 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - 	MarkusBernhardt/robotframework-selenium2library-java
- 2018-06-06 22:06:45 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - Tag [selenium] contain: selenium
- 2018-06-06 22:06:45 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - Tag [selenium] contain: selenium
- 2018-06-06 22:06:45 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - Tag [selenium] contain: selenium
- 2018-06-06 22:06:45 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - Tag [selenium] contain: selenium
- 2018-06-06 22:06:45 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - 	sayems/java.webdriver
- 2018-06-06 22:06:45 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - 	selenium-cucumber/selenium-cucumber-java
- 2018-06-06 22:06:45 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - 	saucelabs-sample-test-frameworks/Java-TestNG-Selenium
- 2018-06-06 22:06:45 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - 	executeautomation/SeleniumWithCucucumber
- 2018-06-06 22:06:46 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - Not all tags contain 'selenium'. 5 from 10
- 2018-06-06 22:06:46 [TestNG-test=testGIT-1] INFO  com.epam.lab.decorator.PageElement  - Click on [Select button]
- 2018-06-06 22:06:46 [TestNG-test=testGIT-1] INFO  com.epam.lab.decorator.PageElement  - Click on [Change item to 'Fewest starts']
- 2018-06-06 22:06:46 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - Tag [selenium] contain: selenium
- 2018-06-06 22:06:46 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - Tag [selenium] contain: selenium
- 2018-06-06 22:06:46 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - Tag [selenium] contain: selenium
- 2018-06-06 22:06:46 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - Tag [selenium] contain: selenium
- 2018-06-06 22:06:46 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - Tag [selenium] contain: selenium
- 2018-06-06 22:06:46 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - Tag [selenium] contain: selenium
- 2018-06-06 22:06:46 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - Tag [selenium] contain: selenium
- 2018-06-06 22:06:46 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - Tag [selenium] contain: selenium
- 2018-06-06 22:06:46 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - Tag [selenium] contain: selenium
- 2018-06-06 22:06:46 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - Tag [selenium] contain: selenium
- 2018-06-06 22:06:47 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - Not all tags contain 'selenium'. 5 from 10
- 2018-06-06 22:06:47 [TestNG-test=testGIT-2] INFO  com.epam.lab.decorator.PageElement  - Click on [Select button]
- 2018-06-06 22:06:47 [TestNG-test=testGIT-2] INFO  com.epam.lab.decorator.PageElement  - Click on [Change item to 'Fewest starts']
- 2018-06-06 22:06:47 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - Not all tags contain 'selenium'. 5 from 10
- 2018-06-06 22:06:47 [TestNG-test=testGIT-3] INFO  com.epam.lab.decorator.PageElement  - Click on [Select button]
- 2018-06-06 22:06:47 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - There are 10 repositories on the page.
+ 2018-06-06 22:21:15 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - Name of repositories: 
+ 2018-06-06 22:21:15 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - 	SeleniumHQ/selenium
+ 2018-06-06 22:21:15 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - 	sebarmeli/Selenium2-Java-QuickStart-Archetype
+ 2018-06-06 22:21:15 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - 	machzqcq/CucumberJVMExamples
+ 2018-06-06 22:21:15 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - 	vmi/selenese-runner-java
+ 2018-06-06 22:21:15 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - 	Ardesco/Selenium-Maven-Template
+ 2018-06-06 22:21:15 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - 	MarkusBernhardt/robotframework-selenium2library-java
+ 2018-06-06 22:21:15 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - 	sayems/java.webdriver
+ 2018-06-06 22:21:15 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - 	selenium-cucumber/selenium-cucumber-java
+ 2018-06-06 22:21:15 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - 	saucelabs-sample-test-frameworks/Java-TestNG-Selenium
+ 2018-06-06 22:21:15 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - 	executeautomation/SeleniumWithCucucumber
+ 2018-06-06 22:21:15 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - There are 10 repositories on the page.
 
- 2018-06-06 22:06:47 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - Name of repositories: 
- 2018-06-06 22:06:47 [TestNG-test=testGIT-3] INFO  com.epam.lab.decorator.PageElement  - Click on [Change item to 'Fewest starts']
- 2018-06-06 22:06:47 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	arnlaugsson/sparkIt
- 2018-06-06 22:06:47 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	vamonostest/java_essentials
- 2018-06-06 22:06:47 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	jomarnavarro/junitWebDriver
- 2018-06-06 22:06:48 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	AnalyzeAppPerformance/java-selenium-webdriver-sample-app
- 2018-06-06 22:06:48 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	crossbrowsertesting/selenium-java
- 2018-06-06 22:06:48 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	w3cj/nightwatch-starter
- 2018-06-06 22:06:48 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	kowalcj0/tech-test-selenium-jbehave
- 2018-06-06 22:06:48 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	pragmatictesters/selenium-webdriver-testng-java-examples
- 2018-06-06 22:06:48 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	GoldenRazor/SeleniumJavaDemo
- 2018-06-06 22:06:48 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	himanshu5jan/jWarmUp4Selenium
- 2018-06-06 22:06:48 [TestNG-test=testGIT-1] INFO  com.epam.lab.decorator.PageElement  - Clear [Search text in search bar]
- 2018-06-06 22:06:48 [TestNG-test=testGIT-1] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Search text in search bar] value [[java]]
- 2018-06-06 22:06:48 [TestNG-test=testGIT-1] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Search text in search bar] value [[?]]
- 2018-06-06 22:06:48 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - There are 10 repositories on the page.
+ 2018-06-06 22:21:15 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - Name of repositories: 
+ 2018-06-06 22:21:16 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	arnlaugsson/sparkIt
+ 2018-06-06 22:21:16 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	vamonostest/java_essentials
+ 2018-06-06 22:21:16 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - Not all tags contain 'selenium'. 5 from 10
+ 2018-06-06 22:21:16 [TestNG-test=testGIT-2] INFO  com.epam.lab.decorator.PageElement  - Click on [Select button]
+ 2018-06-06 22:21:16 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	jomarnavarro/junitWebDriver
+ 2018-06-06 22:21:16 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	AnalyzeAppPerformance/java-selenium-webdriver-sample-app
+ 2018-06-06 22:21:16 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	crossbrowsertesting/selenium-java
+ 2018-06-06 22:21:16 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	w3cj/nightwatch-starter
+ 2018-06-06 22:21:16 [TestNG-test=testGIT-2] INFO  com.epam.lab.decorator.PageElement  - Click on [Change item to 'Fewest starts']
+ 2018-06-06 22:21:16 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	kowalcj0/tech-test-selenium-jbehave
+ 2018-06-06 22:21:16 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	pragmatictesters/selenium-webdriver-testng-java-examples
+ 2018-06-06 22:21:16 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	GoldenRazor/SeleniumJavaDemo
+ 2018-06-06 22:21:16 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	himanshu5jan/jWarmUp4Selenium
+ 2018-06-06 22:21:16 [TestNG-test=testGIT-1] INFO  com.epam.lab.decorator.PageElement  - Clear [Search text in search bar]
+ 2018-06-06 22:21:16 [TestNG-test=testGIT-1] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Search text in search bar] value [[java]]
+ 2018-06-06 22:21:16 [TestNG-test=testGIT-1] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Search text in search bar] value [[?]]
+ 2018-06-06 22:21:17 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - Tag [selenium] contain: selenium
+ 2018-06-06 22:21:17 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - Tag [selenium] contain: selenium
+ 2018-06-06 22:21:17 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - Tag [selenium] contain: selenium
+ 2018-06-06 22:21:17 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - There are 10 repositories on the page.
 
- 2018-06-06 22:06:48 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - Name of repositories: 
- 2018-06-06 22:06:48 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	arnlaugsson/sparkIt
- 2018-06-06 22:06:48 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	vamonostest/java_essentials
- 2018-06-06 22:06:48 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	jomarnavarro/junitWebDriver
- 2018-06-06 22:06:48 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	AnalyzeAppPerformance/java-selenium-webdriver-sample-app
- 2018-06-06 22:06:48 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	crossbrowsertesting/selenium-java
- 2018-06-06 22:06:48 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	w3cj/nightwatch-starter
- 2018-06-06 22:06:48 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	kowalcj0/tech-test-selenium-jbehave
- 2018-06-06 22:06:48 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	pragmatictesters/selenium-webdriver-testng-java-examples
- 2018-06-06 22:06:49 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	GoldenRazor/SeleniumJavaDemo
- 2018-06-06 22:06:49 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	himanshu5jan/jWarmUp4Selenium
- 2018-06-06 22:06:49 [TestNG-test=testGIT-2] INFO  com.epam.lab.decorator.PageElement  - Clear [Search text in search bar]
- 2018-06-06 22:06:49 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - There are 10 repositories on the page.
+ 2018-06-06 22:21:17 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - Name of repositories: 
+ 2018-06-06 22:21:17 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - Tag [selenium] contain: selenium
+ 2018-06-06 22:21:17 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - Tag [selenium] contain: selenium
+ 2018-06-06 22:21:17 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	arnlaugsson/sparkIt
+ 2018-06-06 22:21:17 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	vamonostest/java_essentials
+ 2018-06-06 22:21:17 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	jomarnavarro/junitWebDriver
+ 2018-06-06 22:21:17 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	AnalyzeAppPerformance/java-selenium-webdriver-sample-app
+ 2018-06-06 22:21:17 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	crossbrowsertesting/selenium-java
+ 2018-06-06 22:21:17 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	w3cj/nightwatch-starter
+ 2018-06-06 22:21:17 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	kowalcj0/tech-test-selenium-jbehave
+ 2018-06-06 22:21:17 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	pragmatictesters/selenium-webdriver-testng-java-examples
+ 2018-06-06 22:21:17 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	GoldenRazor/SeleniumJavaDemo
+ 2018-06-06 22:21:17 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - 	himanshu5jan/jWarmUp4Selenium
+ 2018-06-06 22:21:17 [TestNG-test=testGIT-2] INFO  com.epam.lab.decorator.PageElement  - Clear [Search text in search bar]
+ 2018-06-06 22:21:18 [TestNG-test=testGIT-2] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Search text in search bar] value [[java]]
+ 2018-06-06 22:21:18 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - Total count are 796,056 repository results
+ 2018-06-06 22:21:18 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - There are 10 repositories on the page.
 
- 2018-06-06 22:06:49 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - Name of repositories: 
- 2018-06-06 22:06:49 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - 	arnlaugsson/sparkIt
- 2018-06-06 22:06:49 [TestNG-test=testGIT-2] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Search text in search bar] value [[java]]
- 2018-06-06 22:06:49 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - 	vamonostest/java_essentials
- 2018-06-06 22:06:49 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - 	jomarnavarro/junitWebDriver
- 2018-06-06 22:06:49 [TestNG-test=testGIT-2] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Search text in search bar] value [[?]]
- 2018-06-06 22:06:49 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - 	AnalyzeAppPerformance/java-selenium-webdriver-sample-app
- 2018-06-06 22:06:49 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - 	crossbrowsertesting/selenium-java
- 2018-06-06 22:06:49 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - 	w3cj/nightwatch-starter
- 2018-06-06 22:06:49 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - 	kowalcj0/tech-test-selenium-jbehave
- 2018-06-06 22:06:49 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - 	pragmatictesters/selenium-webdriver-testng-java-examples
- 2018-06-06 22:06:49 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - 	GoldenRazor/SeleniumJavaDemo
- 2018-06-06 22:06:49 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - 	himanshu5jan/jWarmUp4Selenium
- 2018-06-06 22:06:49 [TestNG-test=testGIT-3] INFO  com.epam.lab.decorator.PageElement  - Clear [Search text in search bar]
- 2018-06-06 22:06:49 [TestNG-test=testGIT-3] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Search text in search bar] value [[java]]
- 2018-06-06 22:06:49 [TestNG-test=testGIT-3] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Search text in search bar] value [[?]]
- 2018-06-06 22:06:50 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - Total count are 796,049 repository results
- 2018-06-06 22:06:50 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - There are 10 repositories on the page.
-
- 2018-06-06 22:06:50 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - Name of repositories: 
- 2018-06-06 22:06:50 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	TheAlgorithms/Java
- 2018-06-06 22:06:50 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	DuGuQiuBai/Java
- 2018-06-06 22:06:50 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	hmkcode/Java
- 2018-06-06 22:06:50 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	pubnub/java
- 2018-06-06 22:06:50 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	sous-chefs/java
- 2018-06-06 22:06:50 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	airbnb/javascript
- 2018-06-06 22:06:50 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	dockerfile/java
- 2018-06-06 22:06:50 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	gaopu/Java
- 2018-06-06 22:06:50 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - Total count are 796,049 repository results
- 2018-06-06 22:06:50 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	json-iterator/java
- 2018-06-06 22:06:50 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - There are 10 repositories on the page.
-
- 2018-06-06 22:06:50 [TestNG-test=testGIT-2] INFO  com.epam.lab.pageobjects.github.GitPage  - Name of repositories: 
- 2018-06-06 22:06:50 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	wesbos/JavaScript30
+ 2018-06-06 22:21:18 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - Name of repositories: 
+ 2018-06-06 22:21:18 [TestNG-test=testGIT-3] INFO  com.epam.lab.pageobjects.github.GitPage  - Not all tags contain 'selenium'. 5 from 10
+ 2018-06-06 22:21:18 [TestNG-test=testGIT-3] INFO  com.epam.lab.decorator.PageElement  - Click on [Select button]
+ 2018-06-06 22:21:18 [TestNG-test=testGIT-2] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Search text in search bar] value [[?]]
+ 2018-06-06 22:21:18 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	TheAlgorithms/Java
+ 2018-06-06 22:21:18 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	DuGuQiuBai/Java
+ 2018-06-06 22:21:18 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	hmkcode/Java
+ 2018-06-06 22:21:18 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	pubnub/java
+ 2018-06-06 22:21:18 [TestNG-test=testGIT-3] INFO  com.epam.lab.decorator.PageElement  - Click on [Change item to 'Fewest starts']
+ 2018-06-06 22:21:18 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	sous-chefs/java
+ 2018-06-06 22:21:18 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	airbnb/javascript
+ 2018-06-06 22:21:18 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	dockerfile/java
+ 2018-06-06 22:21:18 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	json-iterator/java
+ 2018-06-06 22:21:18 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	gaopu/Java
+ 2018-06-06 22:21:18 [TestNG-test=testGIT-1] INFO  com.epam.lab.pageobjects.github.GitPage  - 	wesbos/JavaScript30
  ]]></system-out>
   <system-err><![CDATA[log4j:ERROR A "com.epam.lab.utils.CustomListener" object is not assignable to a "org.apache.log4j.Appender" variable.
 log4j:ERROR The class "org.apache.log4j.Appender" was loaded by 
@@ -191,17 +168,17 @@ log4j:ERROR The class "org.apache.log4j.Appender" was loaded by
 log4j:ERROR [sun.misc.Launcher$AppClassLoader@659e0bfd] whereas object of type 
 log4j:ERROR "com.epam.lab.utils.CustomListener" was loaded by [sun.misc.Launcher$AppClassLoader@659e0bfd].
 log4j:ERROR Could not instantiate appender named "reportng".
-Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 40846
+Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 26037
 Only local connections are allowed.
-Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 31147
+Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 47704
 Only local connections are allowed.
-Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 44333
+Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 45903
 Only local connections are allowed.
-черв. 06, 2018 10:06:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+черв. 06, 2018 10:21:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
-черв. 06, 2018 10:06:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+черв. 06, 2018 10:21:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
-черв. 06, 2018 10:06:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+черв. 06, 2018 10:21:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
 </testsuite>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.epam.lab.TestGitFailed" tests="1" skipped="0" failures="1" errors="0" timestamp="2018-06-06T19:06:52" hostname="DESKTOP-KOGK8HA" time="6.784">
+<testsuite name="com.epam.lab.TestGitFailed" tests="1" skipped="0" failures="1" errors="0" timestamp="2018-06-06T19:21:22" hostname="DESKTOP-KOGK8HA" time="5.905">
   <properties/>
-  <testcase name="GitHubTest" classname="com.epam.lab.TestGitFailed" time="6.784">
+  <testcase name="GitHubTest" classname="com.epam.lab.TestGitFailed" time="5.905">
     <failure message="java.lang.AssertionError: Invalid email or password! Not exist such user!" type="java.lang.AssertionError">java.lang.AssertionError: Invalid email or password! Not exist such user!
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.assertNotEquals(Assert.java:1157)
@@ -23,22 +23,21 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <system-out><![CDATA[2018-06-06 22:06:52 [TestNG-test=FailedTestGIT-1] INFO  com.epam.lab.TestGitFailed  - User [email= user@gmail.com , password=user]
- 2018-06-06 22:06:58 [TestNG-test=FailedTestGIT-1] INFO  com.epam.lab.decorator.PageElement  - Checking if element is displayed [Button 'Sign in']
- 2018-06-06 22:06:58 [TestNG-test=FailedTestGIT-1] INFO  com.epam.lab.decorator.PageElement  - Click on [Button 'Sign in']
- 2018-06-06 22:06:58 [TestNG-test=FailedTestGIT-1] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Input login in GitHub] value [[user@gmail.com]]
- 2018-06-06 22:06:58 [TestNG-test=FailedTestGIT-1] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Input password in GitHub] value [[user]]
- 2018-06-06 22:06:58 [TestNG-test=FailedTestGIT-1] INFO  com.epam.lab.decorator.PageElement  - Checking if element is displayed [Button 'Commit']
- 2018-06-06 22:06:58 [TestNG-test=FailedTestGIT-1] INFO  com.epam.lab.decorator.PageElement  - Click on [Button 'Commit']
+  <system-out><![CDATA[2018-06-06 22:21:22 [TestNG-test=FailedTestGIT-1] INFO  com.epam.lab.TestGitFailed  - User [email= user@gmail.com , password=user]
+ 2018-06-06 22:21:26 [TestNG-test=FailedTestGIT-1] INFO  com.epam.lab.decorator.PageElement  - Click on [Button 'Sign in']
+ 2018-06-06 22:21:27 [TestNG-test=FailedTestGIT-1] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Input login in GitHub] value [[user@gmail.com]]
+ 2018-06-06 22:21:27 [TestNG-test=FailedTestGIT-1] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Input password in GitHub] value [[user]]
+ 2018-06-06 22:21:27 [TestNG-test=FailedTestGIT-1] INFO  com.epam.lab.decorator.PageElement  - Checking if element is displayed [Button 'Commit']
+ 2018-06-06 22:21:27 [TestNG-test=FailedTestGIT-1] INFO  com.epam.lab.decorator.PageElement  - Click on [Button 'Commit']
  ]]></system-out>
   <system-err><![CDATA[log4j:ERROR A "com.epam.lab.utils.CustomListener" object is not assignable to a "org.apache.log4j.Appender" variable.
 log4j:ERROR The class "org.apache.log4j.Appender" was loaded by 
 log4j:ERROR [sun.misc.Launcher$AppClassLoader@659e0bfd] whereas object of type 
 log4j:ERROR "com.epam.lab.utils.CustomListener" was loaded by [sun.misc.Launcher$AppClassLoader@659e0bfd].
 log4j:ERROR Could not instantiate appender named "reportng".
-Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 22185
+Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 32920
 Only local connections are allowed.
-черв. 06, 2018 10:06:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+черв. 06, 2018 10:21:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
 </testsuite>

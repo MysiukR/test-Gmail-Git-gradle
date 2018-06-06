@@ -64,6 +64,7 @@ public class TestGit {
 
     @AfterClass
     public void closeBrowser() {
+        logger.info("Close browser");
         WebDriverUtils.removeDriver();
     }
 }
