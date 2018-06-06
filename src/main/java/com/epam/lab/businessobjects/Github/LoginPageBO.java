@@ -11,7 +11,7 @@ public class LoginPageBO {
 
     public void inputLogin(String login) {
 
-        loginPage.getLoginGit().sendKeys(login);
+        loginPage.getLoginGit().waitUntilVisible().sendKeys(login);
     }
 
     public void inputPassword(String password) {
