@@ -1,0 +1,35 @@
+apply plugin: 'java'
+//apply plugin: 'maven'
+
+group = 'decorator'
+version = '1.0-SNAPSHOT'
+
+description = """"""
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+test {
+    useTestNG() {
+        // runlist to executed. path is relative to current folder
+        outputDirectory = file("test-output")
+        //required to turn on TestNG reports
+        useDefaultListeners = false
+        testLogging.showStandardStreams = true
+        suites './testng.xml'
+    }
+}
+
+repositories {
+
+     maven { url "http://repo.maven.apache.org/maven2" }
+}
+dependencies {
+    compile group: 'org.uncommons', name: 'reportng', version:'1.1.4'
+    compile group: 'com.google.inject', name: 'guice', version:'3.0'
+    compile group: 'velocity', name: 'velocity-dep', version:'1.4'
+    compile group: 'org.apache.poi', name: 'poi-ooxml', version:'3.15'
+    compile group: 'org.testng', name: 'testng', version:'RELEASE'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version:'3.12.0'
+    compile group: 'log4j', name: 'log4j', version:'1.2.17'
+}
