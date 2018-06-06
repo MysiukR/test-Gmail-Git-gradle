@@ -1,8 +1,8 @@
 package com.epam.lab.filereader;
 
 public class ModelGitUsers {
-    private String login;
-    private String password;
+    public String login;
+    public String password;
 
     public ModelGitUsers(){//String login, String password){
     //    this.login = login;
