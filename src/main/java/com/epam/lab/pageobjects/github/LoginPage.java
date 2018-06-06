@@ -61,4 +61,5 @@ public class LoginPage extends PageObject {
     {
         driver.get(urlGit);
     }
+
 }

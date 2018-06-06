@@ -3,6 +3,11 @@
     <listeners>
         <listener class-name="org.uncommons.reportng.HTMLReporter"/>
     </listeners>
+    <test name="testGmail">
+        <classes>
+            <class name="com.epam.lab.TestGmail"/>
+        </classes>
+    </test>
     <test name="testGIT">
         <classes>
             <class name="com.epam.lab.TestGit"/>
@@ -13,9 +18,5 @@
             <class name="com.epam.lab.TestGitFailed"/>
         </classes>
     </test>
-    <test name="testGmail">
-        <classes>
-            <class name="com.epam.lab.TestGmail"/>
-        </classes>
-    </test>
+
 </suite>
