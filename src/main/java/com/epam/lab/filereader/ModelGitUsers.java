@@ -4,9 +4,7 @@ public class ModelGitUsers {
     public String login;
     public String password;
 
-    public ModelGitUsers(){//String login, String password){
-    //    this.login = login;
-    //    this.password = password;
+    public ModelGitUsers(){
     }
 
     public String getPassword() {

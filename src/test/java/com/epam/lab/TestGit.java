@@ -42,12 +42,9 @@ public class TestGit {
         logger.info("User [email= " + login + " , password=" + password + "]");
         propertyReader = new PropertyReader();
         propertyReader.readProperties();
-        PropertyConfigurator.configure(pathLoggerProperties);
         loginPageBO = new LoginPageBO();
-        logger.info("Initialize properties and go to website");
-        logger.info("Running tests");
-        logger.info("Test sign in to GitHub");
-        loginPageBO.clickSignIn();
+        PropertyConfigurator.configure(pathLoggerProperties);
+        loginPageBO.navigateToSite();
         loginPageBO.inputLogin(login);
         loginPageBO.inputPassword(password);
         gitPageBO = loginPageBO.goToGitPage();

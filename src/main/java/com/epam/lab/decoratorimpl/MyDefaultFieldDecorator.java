@@ -8,7 +8,6 @@ import org.openqa.selenium.support.pagefactory.ElementLocator;
 import org.openqa.selenium.support.pagefactory.ElementLocatorFactory;
 
 import java.lang.reflect.Field;
-import java.lang.reflect.Proxy;
 import java.util.List;
 
 import static java.lang.reflect.Proxy.newProxyInstance;

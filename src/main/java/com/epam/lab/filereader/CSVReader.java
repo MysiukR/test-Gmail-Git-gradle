@@ -25,7 +25,6 @@ public class CSVReader {
                 gitData.setLogin(userData[0]);
                 gitData.setPassword(userData[1]);
                 userModels.add(gitData);
-                //userModels.add()//new ModelGitUsers(userData[0],userData[1]));
             }
         } catch (IOException e) {
             e.printStackTrace();

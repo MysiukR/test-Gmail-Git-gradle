@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.epam.lab.TestGmail" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-06-07T10:18:19" hostname="DESKTOP-KOGK8HA" time="60.441">
+  <properties/>
+  <testcase name="testGmail" classname="com.epam.lab.TestGmail" time="42.187"/>
+  <testcase name="testGmail" classname="com.epam.lab.TestGmail" time="43.714"/>
+  <testcase name="testGmail" classname="com.epam.lab.TestGmail" time="58.951"/>
+  <testcase name="testGmail" classname="com.epam.lab.TestGmail" time="59.768"/>
+  <testcase name="testGmail" classname="com.epam.lab.TestGmail" time="60.441"/>
+  <system-out><![CDATA[2018-06-07 13:18:19 [TestNG-test=testGmail-2] INFO  com.epam.lab.TestGmail  - User [email= seleniumlab6test3@gmail.com , password= lab6test, send to= dahua20151@gmail.com , subject=Message 4 , message=Message Text 4]
+ 2018-06-07 13:18:19 [TestNG-test=testGmail-5] INFO  com.epam.lab.TestGmail  - User [email= seleniumlab6test2@gmail.com , password= lab6test, send to= dahua20151@gmail.com , subject=Message 5 , message=Message Text 5]
+ 2018-06-07 13:18:19 [TestNG-test=testGmail-3] INFO  com.epam.lab.TestGmail  - User [email= seleniolab@gmail.com , password= lab6test, send to= dahua20151@gmail.com , subject=Message 3 , message=Message Text 3]
+ 2018-06-07 13:18:19 [TestNG-test=testGmail-1] INFO  com.epam.lab.TestGmail  - User [email= seleniumlab6test@gmail.com , password= lab6test, send to= dahua20151@gmail.com , subject=Message 1 , message=Message Text 1]
+ 2018-06-07 13:18:19 [TestNG-test=testGmail-4] INFO  com.epam.lab.TestGmail  - User [email= dahua20151@gmail.com , password= qweqweqwe1, send to= dahua20151@gmail.com , subject=Message 2 , message=Message Text 2]
+ 2018-06-07 13:18:23 [TestNG-test=testGmail-2] INFO  com.epam.lab.TestGmail  - Initialize properties and go to website
+ 2018-06-07 13:18:23 [TestNG-test=testGmail-2] INFO  com.epam.lab.TestGmail  - Running tests
+ 2018-06-07 13:18:23 [TestNG-test=testGmail-2] INFO  com.epam.lab.TestGmail  - Test sign in to Gmail
+ 2018-06-07 13:18:23 [TestNG-test=testGmail-3] INFO  com.epam.lab.TestGmail  - Initialize properties and go to website
+ 2018-06-07 13:18:23 [TestNG-test=testGmail-3] INFO  com.epam.lab.TestGmail  - Running tests
+ 2018-06-07 13:18:23 [TestNG-test=testGmail-3] INFO  com.epam.lab.TestGmail  - Test sign in to Gmail
+ 2018-06-07 13:18:23 [TestNG-test=testGmail-4] INFO  com.epam.lab.TestGmail  - Initialize properties and go to website
+ 2018-06-07 13:18:24 [TestNG-test=testGmail-4] INFO  com.epam.lab.TestGmail  - Running tests
+ 2018-06-07 13:18:24 [TestNG-test=testGmail-4] INFO  com.epam.lab.TestGmail  - Test sign in to Gmail
+ 2018-06-07 13:18:24 [TestNG-test=testGmail-1] INFO  com.epam.lab.TestGmail  - Initialize properties and go to website
+ 2018-06-07 13:18:24 [TestNG-test=testGmail-1] INFO  com.epam.lab.TestGmail  - Running tests
+ 2018-06-07 13:18:24 [TestNG-test=testGmail-1] INFO  com.epam.lab.TestGmail  - Test sign in to Gmail
+ 2018-06-07 13:18:25 [TestNG-test=testGmail-5] INFO  com.epam.lab.TestGmail  - Initialize properties and go to website
+ 2018-06-07 13:18:25 [TestNG-test=testGmail-5] INFO  com.epam.lab.TestGmail  - Running tests
+ 2018-06-07 13:18:25 [TestNG-test=testGmail-5] INFO  com.epam.lab.TestGmail  - Test sign in to Gmail
+ 2018-06-07 13:18:32 [TestNG-test=testGmail-5] INFO  com.epam.lab.decorator.PageElement  - Click on [Button 'Sign in']
+ 2018-06-07 13:18:33 [TestNG-test=testGmail-4] INFO  com.epam.lab.decorator.PageElement  - Click on [Button 'Sign in']
+ 2018-06-07 13:18:36 [TestNG-test=testGmail-4] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Typing email] value [[dahua20151@gmail.com]]
+ 2018-06-07 13:18:36 [TestNG-test=testGmail-5] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Typing email] value [[seleniumlab6test2@gmail.com]]
+ 2018-06-07 13:18:38 [TestNG-test=testGmail-5] INFO  com.epam.lab.decorator.PageElement  - Click on ['Next' after email]
+ 2018-06-07 13:18:38 [TestNG-test=testGmail-5] INFO  com.epam.lab.decorator.PageElement  - Checking if element is displayed [Typing password]
+ 2018-06-07 13:18:38 [TestNG-test=testGmail-5] INFO  com.epam.lab.decorator.PageElement  - Checking if element is displayed [Typing password]
+ 2018-06-07 13:18:39 [TestNG-test=testGmail-5] INFO  com.epam.lab.decorator.PageElement  - Checking if element is displayed [Typing password]
+ 2018-06-07 13:18:39 [TestNG-test=testGmail-5] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Typing password] value [[lab6test]]
+ 2018-06-07 13:18:39 [TestNG-test=testGmail-4] INFO  com.epam.lab.decorator.PageElement  - Click on ['Next' after email]
+ 2018-06-07 13:18:39 [TestNG-test=testGmail-3] INFO  com.epam.lab.decorator.PageElement  - Click on [Button 'Sign in']
+ 2018-06-07 13:18:39 [TestNG-test=testGmail-5] INFO  com.epam.lab.decorator.PageElement  - Click on ['Next' after password]
+ 2018-06-07 13:18:40 [TestNG-test=testGmail-4] INFO  com.epam.lab.decorator.PageElement  - Checking if element is displayed [Typing password]
+ 2018-06-07 13:18:40 [TestNG-test=testGmail-5] INFO  com.epam.lab.decorator.PageElement  - Checking if element is displayed [Button 'Compose']
+ 2018-06-07 13:18:40 [TestNG-test=testGmail-2] INFO  com.epam.lab.decorator.PageElement  - Click on [Button 'Sign in']
+ 2018-06-07 13:18:40 [TestNG-test=testGmail-4] INFO  com.epam.lab.decorator.PageElement  - Checking if element is displayed [Typing password]
+ 2018-06-07 13:18:40 [TestNG-test=testGmail-5] INFO  com.epam.lab.decorator.PageElement  - Checking if element is displayed [Button 'Compose']
+ 2018-06-07 13:18:41 [TestNG-test=testGmail-4] INFO  com.epam.lab.decorator.PageElement  - Checking if element is displayed [Typing password]
+ 2018-06-07 13:18:41 [TestNG-test=testGmail-4] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Typing password] value [[qweqweqwe1]]
+ 2018-06-07 13:18:41 [TestNG-test=testGmail-1] INFO  com.epam.lab.decorator.PageElement  - Click on [Button 'Sign in']
+ 2018-06-07 13:18:41 [TestNG-test=testGmail-4] INFO  com.epam.lab.decorator.PageElement  - Click on ['Next' after password]
+ 2018-06-07 13:18:42 [TestNG-test=testGmail-4] INFO  com.epam.lab.decorator.PageElement  - Checking if element is displayed [Button 'Compose']
+ 2018-06-07 13:18:42 [TestNG-test=testGmail-4] INFO  com.epam.lab.decorator.PageElement  - Checking if element is displayed [Button 'Compose']
+ 2018-06-07 13:18:44 [TestNG-test=testGmail-3] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Typing email] value [[seleniolab@gmail.com]]
+ 2018-06-07 13:18:44 [TestNG-test=testGmail-2] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Typing email] value [[seleniumlab6test3@gmail.com]]
+ 2018-06-07 13:18:44 [TestNG-test=testGmail-3] INFO  com.epam.lab.decorator.PageElement  - Click on ['Next' after email]
+ 2018-06-07 13:18:44 [TestNG-test=testGmail-2] INFO  com.epam.lab.decorator.PageElement  - Click on ['Next' after email]
+ 2018-06-07 13:18:45 [TestNG-test=testGmail-1] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Typing email] value [[seleniumlab6test@gmail.com]]
+ 2018-06-07 13:18:45 [TestNG-test=testGmail-3] INFO  com.epam.lab.decorator.PageElement  - Checking if element is displayed [Typing password]
+ 2018-06-07 13:18:45 [TestNG-test=testGmail-2] INFO  com.epam.lab.decorator.PageElement  - Checking if element is displayed [Typing password]
+ 2018-06-07 13:18:45 [TestNG-test=testGmail-3] INFO  com.epam.lab.decorator.PageElement  - Checking if element is displayed [Typing password]
+ 2018-06-07 13:18:45 [TestNG-test=testGmail-2] INFO  com.epam.lab.decorator.PageElement  - Checking if element is displayed [Typing password]
+ 2018-06-07 13:18:46 [TestNG-test=testGmail-3] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Typing password] value [[lab6test]]
+ 2018-06-07 13:18:46 [TestNG-test=testGmail-2] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Typing password] value [[lab6test]]
+ 2018-06-07 13:18:46 [TestNG-test=testGmail-3] INFO  com.epam.lab.decorator.PageElement  - Click on ['Next' after password]
+ 2018-06-07 13:18:46 [TestNG-test=testGmail-2] INFO  com.epam.lab.decorator.PageElement  - Click on ['Next' after password]
+ 2018-06-07 13:18:47 [TestNG-test=testGmail-2] INFO  com.epam.lab.decorator.PageElement  - Checking if element is displayed [Button 'Compose']
+ 2018-06-07 13:18:47 [TestNG-test=testGmail-3] INFO  com.epam.lab.decorator.PageElement  - Checking if element is displayed [Button 'Compose']
+ 2018-06-07 13:18:47 [TestNG-test=testGmail-1] INFO  com.epam.lab.decorator.PageElement  - Click on ['Next' after email]
+ 2018-06-07 13:18:47 [TestNG-test=testGmail-2] INFO  com.epam.lab.decorator.PageElement  - Checking if element is displayed [Button 'Compose']
+ 2018-06-07 13:18:47 [TestNG-test=testGmail-3] INFO  com.epam.lab.decorator.PageElement  - Checking if element is displayed [Button 'Compose']
+ 2018-06-07 13:18:48 [TestNG-test=testGmail-1] INFO  com.epam.lab.decorator.PageElement  - Checking if element is displayed [Typing password]
+ 2018-06-07 13:18:48 [TestNG-test=testGmail-1] INFO  com.epam.lab.decorator.PageElement  - Checking if element is displayed [Typing password]
+ 2018-06-07 13:18:48 [TestNG-test=testGmail-1] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Typing password] value [[lab6test]]
+ 2018-06-07 13:18:49 [TestNG-test=testGmail-1] INFO  com.epam.lab.decorator.PageElement  - Click on ['Next' after password]
+ 2018-06-07 13:18:49 [TestNG-test=testGmail-1] INFO  com.epam.lab.decorator.PageElement  - Checking if element is displayed [Button 'Compose']
+ 2018-06-07 13:18:50 [TestNG-test=testGmail-1] INFO  com.epam.lab.decorator.PageElement  - Checking if element is displayed [Button 'Compose']
+ 2018-06-07 13:18:54 [TestNG-test=testGmail-5] INFO  com.epam.lab.decorator.PageElement  - Click on [Button 'Compose']
+ 2018-06-07 13:18:54 [TestNG-test=testGmail-5] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Input recipients] value [[dahua20151@gmail.com]]
+ 2018-06-07 13:18:54 [TestNG-test=testGmail-4] INFO  com.epam.lab.decorator.PageElement  - Click on [Button 'Compose']
+ 2018-06-07 13:18:58 [TestNG-test=testGmail-5] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Input subject] value [[Message 5]]
+ 2018-06-07 13:18:58 [TestNG-test=testGmail-4] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Input recipients] value [[dahua20151@gmail.com]]
+ 2018-06-07 13:18:58 [TestNG-test=testGmail-5] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Input message] value [[Message Text 5]]
+ 2018-06-07 13:18:59 [TestNG-test=testGmail-5] INFO  com.epam.lab.decorator.PageElement  - Click on [Button 'Send']
+ 2018-06-07 13:19:00 [TestNG-test=testGmail-5] INFO  com.epam.lab.decorator.PageElement  - Click on [Go to sent folder]
+ 2018-06-07 13:19:00 [TestNG-test=testGmail-5] INFO  com.epam.lab.decorator.PageElement  - Click on [Go to sent folder]
+ 2018-06-07 13:19:00 [TestNG-test=testGmail-5] INFO  com.epam.lab.decorator.PageElement  - Getting attribute [email]
+ 2018-06-07 13:19:00 [TestNG-test=testGmail-4] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Input subject] value [[Message 2]]
+ 2018-06-07 13:19:00 [TestNG-test=testGmail-4] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Input message] value [[Message Text 2]]
+ 2018-06-07 13:19:01 [TestNG-test=testGmail-5] INFO  com.epam.lab.decorator.PageElement  - Checking if element is displayed [Checking item for remove]
+ 2018-06-07 13:19:01 [TestNG-test=testGmail-5] INFO  com.epam.lab.decorator.PageElement  - Checking if element is enabled [Checking item for remove]
+ 2018-06-07 13:19:01 [TestNG-test=testGmail-5] INFO  com.epam.lab.decorator.PageElement  - Checking if element is displayed [Checking item for remove]
+ 2018-06-07 13:19:01 [TestNG-test=testGmail-5] INFO  com.epam.lab.decorator.PageElement  - Click on [Checking item for remove]
+ 2018-06-07 13:19:01 [TestNG-test=testGmail-4] INFO  com.epam.lab.decorator.PageElement  - Click on [Button 'Send']
+ 2018-06-07 13:19:01 [TestNG-test=testGmail-5] INFO  com.epam.lab.decorator.PageElement  - Checking if element is displayed [Button 'Delete']
+ 2018-06-07 13:19:01 [TestNG-test=testGmail-5] INFO  com.epam.lab.decorator.PageElement  - Click on [Button 'Delete']
+ 2018-06-07 13:19:01 [TestNG-test=testGmail-4] INFO  com.epam.lab.decorator.PageElement  - Click on [Go to sent folder]
+ 2018-06-07 13:19:01 [TestNG-test=testGmail-5] INFO  com.epam.lab.decorator.PageElement  - Checking if element is displayed [Click 'Ok' in alert message]
+ 2018-06-07 13:19:01 [TestNG-test=testGmail-5] INFO  com.epam.lab.decorator.PageElement  - Click on [Click 'Ok' in alert message]
+ 2018-06-07 13:19:01 [TestNG-test=testGmail-4] INFO  com.epam.lab.decorator.PageElement  - Click on [Go to sent folder]
+ 2018-06-07 13:19:01 [TestNG-test=testGmail-4] INFO  com.epam.lab.decorator.PageElement  - Getting attribute [email]
+ ]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 2674
+Only local connections are allowed.
+Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 3019
+Only local connections are allowed.
+Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 44290
+Only local connections are allowed.
+Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 8213
+Only local connections are allowed.
+Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 32783
+Only local connections are allowed.
+черв. 07, 2018 1:18:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+log4j:ERROR A "com.epam.lab.utils.CustomListener" object is not assignable to a "org.apache.log4j.Appender" variable.
+log4j:ERROR The class "org.apache.log4j.Appender" was loaded by 
+log4j:ERROR [sun.misc.Launcher$AppClassLoader@659e0bfd] whereas object of type 
+log4j:ERROR "com.epam.lab.utils.CustomListener" was loaded by [sun.misc.Launcher$AppClassLoader@659e0bfd].
+log4j:ERROR Could not instantiate appender named "reportng".
+черв. 07, 2018 1:18:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+log4j:ERROR A "com.epam.lab.utils.CustomListener" object is not assignable to a "org.apache.log4j.Appender" variable.
+log4j:ERROR The class "org.apache.log4j.Appender" was loaded by 
+log4j:ERROR [sun.misc.Launcher$AppClassLoader@659e0bfd] whereas object of type 
+log4j:ERROR "com.epam.lab.utils.CustomListener" was loaded by [sun.misc.Launcher$AppClassLoader@659e0bfd].
+log4j:ERROR Could not instantiate appender named "reportng".
+черв. 07, 2018 1:18:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+log4j:ERROR A "com.epam.lab.utils.CustomListener" object is not assignable to a "org.apache.log4j.Appender" variable.
+log4j:ERROR The class "org.apache.log4j.Appender" was loaded by 
+log4j:ERROR [sun.misc.Launcher$AppClassLoader@659e0bfd] whereas object of type 
+log4j:ERROR "com.epam.lab.utils.CustomListener" was loaded by [sun.misc.Launcher$AppClassLoader@659e0bfd].
+log4j:ERROR Could not instantiate appender named "reportng".
+черв. 07, 2018 1:18:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+log4j:ERROR A "com.epam.lab.utils.CustomListener" object is not assignable to a "org.apache.log4j.Appender" variable.
+log4j:ERROR The class "org.apache.log4j.Appender" was loaded by 
+log4j:ERROR [sun.misc.Launcher$AppClassLoader@659e0bfd] whereas object of type 
+log4j:ERROR "com.epam.lab.utils.CustomListener" was loaded by [sun.misc.Launcher$AppClassLoader@659e0bfd].
+log4j:ERROR Could not instantiate appender named "reportng".
+черв. 07, 2018 1:18:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+log4j:ERROR A "com.epam.lab.utils.CustomListener" object is not assignable to a "org.apache.log4j.Appender" variable.
+log4j:ERROR The class "org.apache.log4j.Appender" was loaded by 
+log4j:ERROR [sun.misc.Launcher$AppClassLoader@659e0bfd] whereas object of type 
+log4j:ERROR "com.epam.lab.utils.CustomListener" was loaded by [sun.misc.Launcher$AppClassLoader@659e0bfd].
+log4j:ERROR Could not instantiate appender named "reportng".
+]]></system-err>
+</testsuite>

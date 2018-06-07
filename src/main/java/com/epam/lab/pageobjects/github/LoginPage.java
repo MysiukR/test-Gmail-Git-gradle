@@ -59,7 +59,7 @@ public class LoginPage extends PageObject {
 
     public void getURL()
     {
-        driver.get("https://github.com/");//urlGit);
+        driver.get(urlGit);
     }
 
 }
